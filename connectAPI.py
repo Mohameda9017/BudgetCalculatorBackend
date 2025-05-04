@@ -7,7 +7,7 @@ CORS(app)
 
 @app.route("/")
 def home():
-    return "✅ Budget Calculator Backend is live! Use POST /get-suggestions"
+    return "WE LIVE BABY"
 
 @app.route("/get-suggestions", methods=["POST"])
 def get_suggestions():
